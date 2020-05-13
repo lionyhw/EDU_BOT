@@ -27,6 +27,7 @@
   "cuteBot.initcar|block": "initialize CutebotEDU",
   "cuteBot.motors|block": "Set left wheel speed %lspeed\\% |right wheel speed %rspeed\\%",
   "cuteBot.moveTime|block": "Go %dir at speed%speed\\% for %time seconds",
+  "cuteBot.onPressEvent|block": "on |%btn| button pressed",
   "cuteBot.setServo|block": "Set servo %servo angle to %angle °",
   "cuteBot.singleheadlights|block": "Set LED headlights %light color R:%r G:%g B:%b",
   "cuteBot.stopcar|block": "Stop car immediatly",
