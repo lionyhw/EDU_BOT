@@ -1,7 +1,7 @@
 /**
  * Functions to Cutebot by ELECFREAKS Co.,Ltd.
  */
-//% weight=5 color=#0fbc11  icon="\uf207" 
+//% weight=5 color=#2896ff icon="\uf013"
 namespace cuteBot {
     const STM8_ADDRESSS = 0x10
     let _initEvents = true
