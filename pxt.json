@@ -8,7 +8,15 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+		"shims.d.ts",
+		"enums.d.ts",
+		"ir.cpp",
+		"ReceiverIR.cpp",
+		"ReceiverIR.h",
+		"RemoteIR.h",
+		"_locales/zh/Cutebot-strings.json",
+		"_locales/zh/Cutebot-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"

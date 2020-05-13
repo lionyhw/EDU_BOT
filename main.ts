@@ -5,6 +5,7 @@
 namespace cuteBot {
     const STM8_ADDRESSS = 0x10
     let _initEvents = true
+	cuteBot.init(Pins.P16)
 	/**
 	* Unit of Ultrasound Module
 	*/
@@ -431,5 +432,19 @@ namespace cuteBot {
             _initEvents = false;
         }
     }
+	  //% shim=IR::init
+  export function init(pin: Pins): void {
+    return
+  }
+
+  /**
+  * button pushed.
+  */
+  //% blockId=ir_received_event
+  //% block="on |%btn| button pressed"
+  //% shim=IR::onPressEvent
+  export function onPressEvent(btn: RemoteButton, body:Action): void {
+    return
+  }
 
 }
