@@ -1,5 +1,5 @@
 /**
- * Functions to EDU_BOT by ELECFREAKS Co.,Ltd.
+ * Functions to EDU_BOT by elecfreaks Co.,Ltd.
  */
 //% weight=5 color=#2896ff icon="\uf013"
 namespace EDU_BOT {
