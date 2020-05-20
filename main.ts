@@ -1,11 +1,11 @@
 /**
- * Functions to Cutebot by ELECFREAKS Co.,Ltd.
+ * Functions to EDU_BOT by ELECFREAKS Co.,Ltd.
  */
 //% weight=5 color=#2896ff icon="\uf013"
-namespace cuteBot {
+namespace EDU_BOT {
     const STM8_ADDRESSS = 0x10
     let _initEvents = true
-	cuteBot.init(Pins.P16)
+    EDU_BOT.init(Pins.P16)
 	/**
 	* Unit of Ultrasound Module
 	*/
