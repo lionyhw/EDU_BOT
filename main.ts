@@ -432,19 +432,19 @@ namespace EDU_BOT {
             _initEvents = false;
         }
     }
-	  //% shim=IR::init
-  export function init(pin: Pins): void {
-    return
-  }
+    //% shim=IR::init
+    export function init(pin: Pins): void {
+        return
+    }
 
-  /**
-  * button pushed.
-  */
-  //% blockId=ir_received_event
-  //% block="on |%btn| button pressed"
-  //% shim=IR::onPressEvent
-  export function onPressEvent(btn: RemoteButton, body:Action): void {
-    return
-  }
+    /**
+    * button pushed.
+    */
+    //% blockId=ir_received_event
+    //% block="on |%btn| button pressed"
+    //% shim=IR::onPressEvent
+    export function onPressEvent(btn: RemoteButton, body: Action): void {
+        return
+    }
 
 }
