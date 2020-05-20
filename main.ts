@@ -88,7 +88,7 @@ namespace EDU_BOT {
         //% block="Right" 
         Right = DAL.MICROBIT_ID_IO_P14
     }
-    //% blockId=initcar block="initialize CutebotEDU"
+    //% blockId=initcar block="initialize EDU_BOT"
     export function initcar(): void {
         //
     }
